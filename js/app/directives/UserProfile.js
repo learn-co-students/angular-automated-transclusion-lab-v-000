@@ -3,7 +3,8 @@ function UserProfile() {
 		transclude: true,
 		template: [
 			'<div>',
-				'<h3>User Profile</h3><span ng-transclude></span>',
+				'<h3>User Profile</h3>',
+				'<span ng-transclude></span>',
 			'</div>'
 		].join(''),
 	}
