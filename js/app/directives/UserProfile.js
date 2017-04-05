@@ -2,9 +2,10 @@ function UserProfile() {
 	return {
 		template: [
 			'<div>',
-				'<h3>User Profile</h3>',
+				'<h3>User Profile: <span ng-transclude></span></h3>',
 			'</div>'
-		].join('')
+		].join(''),
+    transclude: true
 	}
 }
 
